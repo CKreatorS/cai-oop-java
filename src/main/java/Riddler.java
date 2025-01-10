@@ -1,17 +1,17 @@
 public class Riddler extends Villain{
 
-    private int createRiddle = 0; 
+    private String createRiddle; 
 
     public Riddler(String name, String alias, String gimic, int goons, int crimes){
         super("Edward Nygma", "Riddler", "riddles", goons, crimes); 
 
     }
 
-    public void setcreateRiddle(int riddle) {
-        this.createRiddle = riddle; 
+    public void setcreateRiddle(String riddle) {
+        this.createRiddle = "The more places I am, the less you can see. What am I?"; 
     }
     
-    public int getcreateRiddle() {
-        return this.createRiddle += 1;
+    public String getcreateRiddle() {
+        return this.createRiddle; 
     }
 }
