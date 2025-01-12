@@ -6,6 +6,7 @@ public class SidekickTest {
 
     @Test
     public void testSidekickAssist() {
+        // Tests Arraylist of sidekicks 
         Robin robin = new Robin();
         MissTuesday tuesday = new MissTuesday();
 

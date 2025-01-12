@@ -11,5 +11,11 @@ public class Villain extends BatChars{
         this.crimes = crimes;
 
     }
+
+    public int commitCrime() {
+        return crimes += 1; 
+
+    // Adds one to crimes commited. 
+    }
     
 }
